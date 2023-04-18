@@ -1,0 +1,98 @@
+/* Pixel Perfect Checkpoints: 375 - 960 - 1400 */
+
+@import "./menu.css";
+@import "./intro.css";
+@import "./about.css";
+@import "./projects.css";
+@import "./services.css";
+@import "./popup-order.css";
+@import "./feedbacks.css";
+@import "./gallery.css";
+@import "./contacts.css";
+@import "./footer.css";
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+input,
+button {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+}
+
+.container {
+    margin-inline: auto;
+    padding: 0 12px;
+    width: 100%;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.dark {
+    color: #ffffff;
+}
+
+.zero-margin {
+    margin: 0;
+}
+
+/*** TABLET Screen only ***/
+@media (min-width: 576px) {
+    
+    .container {
+        padding: 0 16px;
+        /* NOTE: FOR PP TBS only: 
+        background-color: lightgreen;
+        */
+    }
+    
+    .section-title {
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .zero-margin {
+        margin: 0;
+    }
+}
+/*** End TABLET Screen ***/
+
+
+/*** WIDE screen only ***/
+@media (min-width: 1182px) {
+    
+    .container {
+        padding: 0;
+        max-width: 1150px;
+        /* NOTE: FOR PP TBS only: 
+        background-color: lightblue;
+        */
+    }
+    
+    .section-title {
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .zero-margin {
+        margin: 0;
+    }
+}
+/*** End WIDE Screen ***/
