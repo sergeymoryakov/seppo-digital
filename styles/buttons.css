@@ -1,12 +1,9 @@
-/* XXXXXX Section Styles */
+/* Buttons and links - Styles */
 
-.put-section-name-here {
-/* REMOVE! Temporary margin-top */
-    margin-top: 108px;
 
-    margin-bottom: 80px;
-}    
-
+.btn-logo:hover {
+    opacity: 0.5;
+}
 
 
 

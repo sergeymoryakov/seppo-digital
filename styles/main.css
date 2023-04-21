@@ -1,0 +1,110 @@
+/* Main Page: Hero-Menu-Footer Section Styles */
+
+.hero {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.5) 100%); 
+    background-image: url('../resources/hero-background-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 0%;
+}    
+
+
+.hero-inner {
+    position: relative;
+    height: 765px;
+
+    /* TBS - REMOVE */
+    border: 1px solid yellow;
+}
+
+.header {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.menu a {
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: var(--clr-light);
+}
+
+.menu a:hover {
+    color: var(--clr-bright);
+}
+
+.hero-image img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    z-index: 80;
+}
+
+.hero-intro p {
+    position: absolute;
+    bottom: 350px;
+    max-width: 430px;
+    font-size: 20px;
+    line-height: 26px;
+    z-index: 100;
+}
+
+.hero-intro h1 {
+    position: absolute;
+    bottom: 94px;
+    max-width: 919px;
+    font-size: 80px;
+    line-height: 70px;
+    color: var(--clr-bright);
+    z-index: 100;
+}
+
+
+/* NOTE: FOR TBS ONLY - REMOVE BEFORE RELEASE */
+
+
+/*** TABLET Screen only ***/
+@media (max-width: 1182px) {
+    .menu {
+        display: none;
+    }
+
+    .hero-intro h1 {
+        font-size: 60px;
+    } 
+}
+/*** End TABLET Screen ***/
+
+
+/*** MOBILE screen only ***/
+@media (max-width: 576px) {
+
+    .hero-intro p {
+        max-width: 80%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .hero-intro h1 {
+        max-width: 90%;
+        font-size: 40px;
+        line-height: 47px;
+    } 
+
+    
+}
+/*** End WIDE Screen ***/
