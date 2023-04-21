@@ -62,6 +62,7 @@ body {
 @media (max-width: 576px) {
     
     .container {
+        min-width: 340px;
         padding-inline: 12px;
     }
     

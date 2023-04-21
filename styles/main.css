@@ -10,7 +10,7 @@
     background-image: url('../resources/hero-background-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100% 0%;
+    background-position: 0% 0%;
 }    
 
 
@@ -68,7 +68,7 @@
 
 .hero-intro h1 {
     margin-top: 30px;
-    max-width: 919px;
+    max-width: 800px;
     font-size: 80px;
     line-height: 70px;
     color: var(--clr-bright);
@@ -122,6 +122,7 @@
     } 
     
     .hero-intro h1 {
+        max-width: 555px;
         font-size: 60px;
     } 
 }
@@ -135,7 +136,7 @@
     }
 
     .hero-image img {
-        height: auto;
+        object-fit: cover;
     }
 
     .hero-intro p {
@@ -146,7 +147,7 @@
 
     .hero-intro h1 {
         margin-top: 10px;
-        max-width: 90%;
+        max-width: 360px;
         font-size: 40px;
         line-height: 47px;
     } 
