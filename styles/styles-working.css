@@ -1,0 +1,344 @@
+/* CHK if needed 
+
+buttons {
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
+*/
+
+
+header p {
+    margin-top: 251px;
+    margin-left: -1px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+}
+
+header h1 {
+    margin-top: 27px;
+    margin-left: -7px;
+    width: 919px;
+    font-size: 80px;
+    line-height: 70px;
+    /* or 88% */
+    letter-spacing: -0.03em;
+    color: #1BFF07; 
+}
+
+main {
+    margin: 150px 0;
+}
+
+#projects {
+    margin-bottom: 150px;
+    padding: 0 125px;
+}
+
+#projects h2 {
+    /* PP */
+    margin-bottom: 38px;
+    /* PP */
+    margin-left: -5px;
+    font-size: 55px;
+    line-height: 72px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+
+}
+
+
+#projects > div {
+    width: 100%;
+    /* PP */
+    height: 548px;
+    position: relative;
+    border-radius: 30px;
+    background: linear-gradient(
+        180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.9) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+ .project-text {
+    position: absolute;
+    /* PP */
+    bottom: 48px;
+    left: 50px;
+    width: 510px;
+    background-color: transparent;
+}
+
+#projects h3 {
+    /* PP */
+    padding-bottom: 4px;
+    font-size: 35px;
+    line-height: 46px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+}
+
+#projects p {
+    font-size: 30px;
+    line-height: 39px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+}
+
+main button {
+    margin-top: 80px;
+    margin-left: -3px;
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    background-color: #1BFF07;
+    border: solid 1px #1BFF07;
+    color: #000000;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 30px;
+    line-height: 39px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+main button:hover {
+    background-color: transparent;
+    color: #1BFF07;
+}
+
+#stack {
+    margin-bottom: 150px;
+    padding: 0 230px 0 125px;
+}
+
+#stack h2 {
+    margin-bottom: 48px;
+    /* PP */
+    margin-left: -3px;
+    font-size: 55px;
+    line-height: 72px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+}
+
+#stack h3 {
+    margin-bottom: 16px;
+    /* PP */
+    margin-left: -2px;
+    font-size: 35px;
+    line-height: 46px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+#stack p {
+    /* PP */
+    margin-left: -2px;
+    width: 780px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+}
+
+#stack > div {
+    /* PP */
+    margin-bottom: 61px;
+}
+
+#stack > div:last-child {
+    margin: 0;
+}
+
+#stack h3::before {
+    margin-bottom: 13px;
+    content: "";
+    display: block;
+    width: 45px;
+    height: 44px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1BFF07;
+}
+
+.stack-html::before {
+    background-image: url('../resources/vector-html-css.png');
+}
+
+.stack-js::before {
+    background-image: url('../resources/vector-js.png');
+}
+
+.stack-library::before {
+    background-image: url('../resources/vector-library.png');
+}
+
+.stack-mobile::before {
+    background-image: url('../resources/vector-mobile.png');
+}
+
+#services {
+    margin-bottom: 150px;
+    padding: 0 125px;
+}
+
+#services h2 {
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+#services > div {
+    margin-top: 74px;
+}
+
+#services > div:last-child {
+    margin-top: 137px;
+}
+
+.service-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    display: block;
+/* 
+    background-image: url('../resources/serv-turnkey.jpg');
+*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.service-txt {
+    padding: 40px;
+    width: 100%;
+    height: 283px;
+    border-radius: 30px;
+    background-color: #191C19;
+    display: block;
+    color: #FFFFFF;
+}
+
+#services h3 {
+    /* PP */
+    margin-bottom: 17px;
+    font-size: 55px;
+    line-height: 72px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+#services p {
+    width: 749px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+}
+
+#services p:last-child {
+    width: 724px;
+}
+
+#contacts {
+/* 
+    position: relative;
+*/
+    width: 100%;
+    /* height: 717px; */
+    display: block;
+    background-color: #191C19;
+    border-radius: 30px;
+    background-image: url('../resources/footer.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#contacts div {
+/* 
+    position: absolute;
+ */
+    margin: 0 auto;
+    width: 1400px;
+    padding: 320px 125px 89px 125px;
+/* 
+    height: 717px;
+    bottom: 89px;
+    left: 125px; 
+*/
+}
+
+#contacts h2 {
+    font-size: 35px;
+    line-height: 60px;
+    /* identical to box height, or 171% */
+    letter-spacing: -0.03em;
+}
+
+#contacts a {
+    margin-top: 20px;
+    width: 310px;
+    font-size: 60px;
+    line-height: 60px;
+    /* identical to box height, or 100% */
+    display: block;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition-duration: 0.4s;
+}
+
+#contacts a:first-child {
+    margin-top: 28px;
+}
+
+#contacts a:hover {
+    color: #1BFF07;
+}
+
+footer {
+    margin: 0;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    height: 223px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 30px 30px 0 0;
+}
+
+footer section {
+    /* PP */
+    padding: 76px 125px 0 125px;
+}
+
+footer h3 {
+    margin-bottom: 66px;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: -0.03em;
+}
+
+footer p {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    opacity: 0.5;
+}
