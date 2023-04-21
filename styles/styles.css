@@ -36,8 +36,9 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     font-style: normal;
     font-weight: 400;
-    background-color: black;
-    color: #FFFFFF
+    letter-spacing: -0.03em;
+    background-color: var(--clr-bg-dark);
+    color: var(--clr-light);
 }
 
 .container {
