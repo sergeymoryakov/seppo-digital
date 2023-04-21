@@ -113,10 +113,10 @@
         display: none;
     }
 
-    .hero-image img {
+    /* .hero-image img {
         top: 0;
         height: 100%;
-    }
+    } */
    
     .hero-intro {
         bottom: 60px;
