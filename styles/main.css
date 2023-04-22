@@ -18,9 +18,6 @@
 .hero-inner {
     position: relative;
     height: 765px;
-
-    /* TBS - REMOVE */
-    border: 1px solid yellow;
 }
 
 .header {
@@ -73,17 +70,6 @@
     font-size: 80px;
     line-height: 70px;
     color: var(--clr-bright);
-}
-
-
-/* NOTE: FOR TBS ONLY - REMOVE BEFORE RELEASE */
-.dummy-inner {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border: 1px solid greenyellow;
-    font-size: 80px;
-    line-height: 250px;
 }
 
 .footer {

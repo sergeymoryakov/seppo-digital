@@ -9,67 +9,6 @@ buttons {
 */
 
 
-main {
-    margin: 150px 0;
-}
-
-#projects {
-    margin-bottom: 150px;
-    padding: 0 125px;
-}
-
-#projects h2 {
-    /* PP */
-    margin-bottom: 38px;
-    /* PP */
-    margin-left: -5px;
-    font-size: 55px;
-    line-height: 72px;
-    /* identical to box height */
-    letter-spacing: -0.03em;
-
-}
-
-
-#projects > div {
-    width: 100%;
-    /* PP */
-    height: 548px;
-    position: relative;
-    border-radius: 30px;
-    background: linear-gradient(
-        180deg, 
-        rgba(0, 0, 0, 0) 0%, 
-        rgba(0, 0, 0, 0.9) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-}
-
- .project-text {
-    position: absolute;
-    /* PP */
-    bottom: 48px;
-    left: 50px;
-    width: 510px;
-    background-color: transparent;
-}
-
-#projects h3 {
-    /* PP */
-    padding-bottom: 4px;
-    font-size: 35px;
-    line-height: 46px;
-    /* identical to box height */
-    letter-spacing: -0.03em;
-}
-
-#projects p {
-    font-size: 30px;
-    line-height: 39px;
-    /* identical to box height */
-    letter-spacing: -0.03em;
-}
 
 main button {
     margin-top: 80px;

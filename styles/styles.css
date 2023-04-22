@@ -1,5 +1,6 @@
 @import "./main.css";
 @import "./buttons.css";
+@import "./projects.css";
 
 html {
     scroll-behavior: smooth;
@@ -44,6 +45,9 @@ body {
 .container {
     margin-inline: auto;
     max-width: 1150px;
+
+    /* REMOVE - FOR TBS ONLY */
+    border: 1px solid yellow;
 }
 
 
