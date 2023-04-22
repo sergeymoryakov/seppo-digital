@@ -24,7 +24,7 @@
 }
 
 .header {
-    margin-top: 25px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -57,7 +57,7 @@
 
 .hero-intro {
     position: absolute;
-    bottom: 94px;
+    bottom: 90px;
     z-index: 100;
 }
 
@@ -119,7 +119,7 @@
     } */
    
     .hero-intro {
-        bottom: 60px;
+        bottom: 55px;
     } 
     
     .hero-intro h1 {
