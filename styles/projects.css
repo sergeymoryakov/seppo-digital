@@ -1,0 +1,28 @@
+/* Projects Section Styles */
+
+.put-section-name-here {
+/* REMOVE! Temporary margin-top */
+    margin-top: 108px;
+
+    margin-bottom: 80px;
+}    
+
+
+
+
+/*** TABLET Screen only ***/
+@media (max-width: 1182px) {
+    
+    
+    
+}
+/*** End TABLET Screen ***/
+
+
+/*** MOBILE screen only ***/
+@media (max-width: 576px) {
+
+
+    
+}
+/*** End WIDE Screen ***/
