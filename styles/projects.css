@@ -25,17 +25,17 @@
 }
         
 .metrica {
-    background-image: url("/resources/project-metrica.jpg");
+    background-image: url("../resources/project-metrica.jpg");
     background-position: 0% 0%;
 }
 
 .nothing {
-    background-image: url("/resources/project-nothing.jpg");
+    background-image: url('../resources/project-nothing.jpg');
     background-position: 50% 0%;
 }
 
 .toptrip {
-    background-image: url("/resources/project-toptrip.jpg");
+    background-image: url("../resources/project-toptrip.jpg");
     background-position: 20% 0%;
 }
 
