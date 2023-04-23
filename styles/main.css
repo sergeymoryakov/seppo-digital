@@ -3,21 +3,24 @@
 .hero {
     width: 100%;
     height: auto;
-    background: linear-gradient(
+    /* background: linear-gradient(
         180deg,
         rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0.9) 100%); 
-    background-image: url('../resources/hero-background-2.jpg');
-    /* background-color: white; */
+        rgba(0,0,0,0.9) 100%),
+        url('../resources/hero-background-2.jpg'); */
+    background-image: url('../resources/hero-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 0%;
 }    
 
-
 .hero-inner {
     position: relative;
     height: 765px;
+    /* background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.9) 100%); */
 }
 
 .header {
@@ -44,12 +47,35 @@
     color: var(--clr-bright);
 }
 
+/* 
 .hero-image img {
     position: absolute;
     right: 0;
     bottom: 0;
     height: 90%;
     z-index: 80;
+} 
+*/
+.hero-image-frame {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 95%;
+    border: 1px solid red;
+}
+
+.hero-image {
+    display: block;
+    height: auto;
+    width: 50%;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.9) 100%),
+        url(../resources/seppo_standing_med.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid green;
 }
 
 .hero-intro {

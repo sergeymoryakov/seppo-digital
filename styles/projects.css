@@ -18,24 +18,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* display: inline-block; */
+}
+
+.project.metrica {
     background: linear-gradient(
         180deg, 
         rgba(0, 0, 0, 0) 0%, 
-        rgba(0, 0, 0, 0.9) 100%);
-}
-        
-.metrica {
-    background-image: url("../resources/project-metrica.jpg");
-    background-position: 0% 0%;
-}
-
-.nothing {
-    background-image: url("../resources/project-nothing.jpg");
-    background-position: 50% 0%;
-}
-
-.toptrip {
-    background-image: url("../resources/project-toptrip.jpg");
+        rgba(0, 0, 0, 0.9) 100%),
+        url("../resources/project-metrica.jpg");
+        background-position: 0% 0%;
+    }
+    
+.project.nothing {
+    background: linear-gradient(
+        180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.9) 100%),
+        url("../resources/project-nothing.jpg");
+        background-position: 50% 0%;
+    }
+    
+.project.toptrip {
+    background: linear-gradient(
+        180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.9) 100%),
+        url("../resources/project-toptrip.jpg");
     background-position: 20% 0%;
 }
 
