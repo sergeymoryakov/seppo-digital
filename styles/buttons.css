@@ -1,5 +1,6 @@
 /* Buttons and links - Styles */
 
+.btn-logo {}
 
 .btn-logo:hover {
     opacity: 0.5;
