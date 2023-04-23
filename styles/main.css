@@ -8,7 +8,7 @@
         rgba(0,0,0,0) 0%,
         rgba(0,0,0,0.9) 100%),
         url('../resources/hero-background-2.jpg'); */
-    background-image: url('../resources/hero-background.jpg');
+    background-image: url('../resources/hero-background-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 0%;
@@ -56,26 +56,30 @@
     z-index: 80;
 } 
 */
-.hero-image-frame {
-    display: flex;
-    justify-content: end;
-    width: 100%;
-    height: 95%;
-    border: 1px solid red;
-}
 
 .hero-image {
-    display: block;
-    height: auto;
-    width: 50%;
-    background: linear-gradient(
-        180deg,
-        rgba(0,0,0,0) 0%,
-        rgba(0,0,0,0.9) 100%),
-        url(../resources/seppo_standing_med.png);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    width: 60%;
+    background-image: url(../resources/seppo_standing_med.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid green;
+}
+
+.hero-inner-blure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.9) 100%);
+    border: 1px solid red;
 }
 
 .hero-intro {
@@ -125,10 +129,9 @@
         display: none;
     }
 
-    /* .hero-image img {
-        top: 0;
-        height: 100%;
-    } */
+    .hero-image {
+        width: 75%;
+    }
    
     .hero-intro {
         bottom: 55px;
@@ -148,8 +151,8 @@
         height: 716px;
     }
 
-    .hero-image img {
-        object-fit: cover;
+    .hero-image {
+        width: 90%;
     }
 
     .hero-intro p {
