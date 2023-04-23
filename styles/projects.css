@@ -47,22 +47,10 @@
     background-position: 20% 0%;
 }
 
-.project-link {
+.project-link-frame {
     position: absolute;
     top: 50px;
     left: 50px;
-    padding: 10px 20px;
-    background-color: var(--clr-bright);
-    border: 1px solid var(--clr-bright);
-    border-radius: 100px;
-    cursor: pointer;
-}
-
-.project-link a {
-    font-size: 20px;
-    line-height: 27px;
-    text-decoration: none;
-    color: var(--clr-dark); 
 }
 
 .project-text {
@@ -97,17 +85,10 @@
         border-radius: 25px;
     }
     
-    .project-link {
+    .project-link-frame {
         top: 40px;
         left: 35px;
-        padding: 8px 16px;
-        border-radius: 80px;
     }
-
-    .project-link a {
-        font-size: 16px;
-        line-height: 22px;
-    } 
     
     .project-text {
         bottom: 40px;
@@ -142,17 +123,10 @@
         line-height: 39px;
     } 
 
-    .project-link {
+    .project-link-frame {
         top: 30px;
         left: 33px;
-        padding: 6px 12px;
-        border-radius: 64px;
     }
-    
-    .project-link a {
-        font-size: 13px;
-        line-height: 18px;
-    } 
     
     .project-text {
         bottom: 50px;

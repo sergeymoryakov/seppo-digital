@@ -6,11 +6,33 @@
     opacity: 0.5;
 }
 
+.project-link-btn {
+    padding: 10px 20px;
+    background-color: var(--clr-bright);
+    border: 1px solid var(--clr-bright);
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    color: var(--clr-dark); 
+}
+
+.project-link-btn:hover {
+    opacity: 0.5;
+    color: var(--clr-light);
+}
 
 
 /*** TABLET Screen only ***/
 @media (max-width: 1182px) {
-    
+        
+    .project-link-btn {
+        padding: 8px 16px;
+        border-radius: 80px;
+        font-size: 16px;
+        line-height: 22px;
+    } 
     
     
 }
@@ -19,7 +41,13 @@
 
 /*** MOBILE screen only ***/
 @media (max-width: 576px) {
-
+        
+    .project-link-btn {
+        padding: 6px 12px;
+        border-radius: 64px;
+        font-size: 13px;
+        line-height: 18px;
+    } 
 
     
 }
