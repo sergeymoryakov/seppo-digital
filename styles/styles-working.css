@@ -8,34 +8,6 @@ buttons {
 
 */
 
-
-
-main button {
-    margin-top: 80px;
-    margin-left: -3px;
-    width: 582px;
-    height: 153px;
-    border-radius: 10px;
-    background-color: #1BFF07;
-    border: solid 1px #1BFF07;
-    color: #000000;
-    font-family: 'IBM Plex Mono', monospace;
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    font-size: 30px;
-    line-height: 39px;
-    /* identical to box height */
-    letter-spacing: -0.03em;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-main button:hover {
-    background-color: transparent;
-    color: #1BFF07;
-}
-
 #stack {
     margin-bottom: 150px;
     padding: 0 230px 0 125px;

@@ -1,28 +1,58 @@
 /* Buttons and links - Styles */
 
-.btn-logo {}
+.logo-frame {
+    width: 130px;
+    height: 40px;
+    background-image: url('../resources/btn-white-tnsp.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    transition: background-image 0.4s ease;
+    /* z-index: 100; */
+}
 
-.btn-logo:hover {
-    opacity: 0.5;
+.logo-frame:hover {
+    background-image: url('../resources/btn-blue-black.png');
 }
 
 .project-link-btn {
     padding: 10px 20px;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--clr-dark); 
+    text-decoration: none;
     background-color: var(--clr-bright);
     border: 1px solid var(--clr-bright);
     border-radius: 100px;
     cursor: pointer;
-    font-size: 20px;
-    line-height: 27px;
-    text-decoration: none;
-    color: var(--clr-dark); 
+    transition-duration: 0.4s;
 }
 
 .project-link-btn:hover {
-    opacity: 0.5;
-    color: var(--clr-light);
+    color: var(--clr-bright);
+    background-color: var(--clr-bg-dark);
 }
 
+.all-projects-btn {
+    display: block;
+    margin-top: 80px;
+    margin-left: 0;
+    width: 582px;
+    font-size: 30px;
+    line-height: 153px;
+    text-align: center;
+    color: #000000;
+    background-color: var(--clr-bright);
+    border: solid 1px var(--clr-bright);
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.all-projects-btn:hover {
+    color: var(--clr-bright);
+    background-color: var(--clr-bg-dark);
+}
 
 /*** TABLET Screen only ***/
 @media (max-width: 1182px) {
@@ -34,6 +64,14 @@
         line-height: 22px;
     } 
     
+    .all-projects-btn {
+        margin-top: 64px;
+        margin-left: 0;
+        width: 460px;
+        font-size: 24px;
+        line-height: 124px;
+        border-radius: 8px;
+    }
     
 }
 /*** End TABLET Screen ***/
@@ -48,6 +86,14 @@
         font-size: 13px;
         line-height: 18px;
     } 
+
+    .all-projects-btn {
+        margin-top: 60px;
+        margin-left: 0;
+        width: 100%;
+        font-size: 18px;
+        line-height: 80px;
+    }
 
     
 }
