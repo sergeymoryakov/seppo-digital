@@ -4,6 +4,56 @@
     margin-top: 180px;
 }    
 
+.services h2 {
+    margin-bottom: 80px;
+    font-size: 35px;
+    line-height: 46px;
+    color: var(--clr-light);
+}
+
+.service-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.service-img.turnkey {
+    background-image: url('../resources/serv-turnkey.jpg');
+}
+
+.service-img.web {
+    background-image: url('../resources/serv-web.jpg');
+}
+
+.service-img.mobile {
+    background-image: url('../resources/serv-mobile.jpg');
+}
+
+.service-txt {
+    padding: 40px;
+    width: 100%;
+    height: 283px;
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
+    border-radius: 30px;
+}
+
+.service-txt h3 {
+    margin-bottom: 17px;
+    font-size: 55px;
+    line-height: 72px;
+    color: var(--clr-bright);
+}
+
+.service-txt p {
+    width: 749px;
+    font-size: 22px;
+    line-height: 29px;
+}
+
 /*** TABLET Screen only ***/
 @media (max-width: 1182px) {
     

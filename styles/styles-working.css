@@ -1,62 +1,6 @@
-/* CHK if needed 
-
-buttons {
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-
-
-*/
-
-#stack > div {
-    /* PP */
-    margin-bottom: 61px;
-}
-
-#stack > div:last-child {
-    margin: 0;
-}
-
-#stack h3::before {
-    margin-bottom: 13px;
-    content: "";
-    display: block;
-    width: 45px;
-    height: 44px;
-    color: #FFFFFF;
-    border-radius: 10px;
-    background-size: auto 60%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #1BFF07;
-}
-
-.stack-html::before {
-    background-image: url('../resources/vector-html-css.png');
-}
-
-.stack-js::before {
-    background-image: url('../resources/vector-js.png');
-}
-
-.stack-library::before {
-    background-image: url('../resources/vector-library.png');
-}
-
-.stack-mobile::before {
-    background-image: url('../resources/vector-mobile.png');
-}
-
 #services {
     margin-bottom: 150px;
     padding: 0 125px;
-}
-
-#services h2 {
-    font-size: 35px;
-    line-height: 46px;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
 }
 
 #services > div {
@@ -80,32 +24,6 @@ buttons {
     background-position: 50% 50%;
 }
 
-.service-txt {
-    padding: 40px;
-    width: 100%;
-    height: 283px;
-    border-radius: 30px;
-    background-color: #191C19;
-    display: block;
-    color: #FFFFFF;
-}
-
-#services h3 {
-    /* PP */
-    margin-bottom: 17px;
-    font-size: 55px;
-    line-height: 72px;
-    /* identical to box height */
-    letter-spacing: -0.03em;
-    color: #1BFF07;
-}
-
-#services p {
-    width: 749px;
-    font-size: 22px;
-    line-height: 29px;
-    letter-spacing: -0.03em;
-}
 
 #services p:last-child {
     width: 724px;
