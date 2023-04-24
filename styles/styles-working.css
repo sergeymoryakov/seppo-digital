@@ -8,41 +8,6 @@ buttons {
 
 */
 
-#stack {
-    margin-bottom: 150px;
-    padding: 0 230px 0 125px;
-}
-
-#stack h2 {
-    margin-bottom: 48px;
-    /* PP */
-    margin-left: -3px;
-    font-size: 55px;
-    line-height: 72px;
-    /* identical to box height */
-    letter-spacing: -0.03em;
-}
-
-#stack h3 {
-    margin-bottom: 16px;
-    /* PP */
-    margin-left: -2px;
-    font-size: 35px;
-    line-height: 46px;
-    /* identical to box height */
-    letter-spacing: -0.03em;
-    color: #1BFF07;
-}
-
-#stack p {
-    /* PP */
-    margin-left: -2px;
-    width: 780px;
-    font-size: 22px;
-    line-height: 29px;
-    letter-spacing: -0.03em;
-}
-
 #stack > div {
     /* PP */
     margin-bottom: 61px;
