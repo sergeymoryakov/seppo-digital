@@ -1,6 +1,7 @@
 @import "./main.css";
 @import "./buttons.css";
 @import "./projects.css";
+@import "./experience.css";
 
 html {
     scroll-behavior: smooth;
