@@ -76,7 +76,9 @@
 
 /*** MOBILE screen only ***/
 @media (max-width: 576px) {
-
+    .experience {
+        margin-top: 100px;
+    }
 
     
 }
