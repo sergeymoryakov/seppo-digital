@@ -5,7 +5,7 @@
 }    
 
 .experience h2 {
-    margin-bottom: 48px;
+    margin-bottom: 80px;
     font-size: 55px;
     line-height: 72px;
 }
@@ -68,8 +68,12 @@
 /*** TABLET Screen only ***/
 @media (max-width: 1182px) {
    
+    .experience-inner {
+        gap: 60px;
+    }
+
     .experience h2 {
-        margin-bottom: 60px;
+        margin-bottom: 75px;
         font-size: 45px;
         line-height: 58px;
     } 
@@ -107,7 +111,7 @@
         font-size: 30px;
         line-height: 39px;
     }
-    
+
     .stack {
         width: 100%;
     }
