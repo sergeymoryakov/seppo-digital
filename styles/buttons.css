@@ -41,7 +41,7 @@
     font-size: 30px;
     line-height: 153px;
     text-align: center;
-    color: #000000;
+    color: var(--clr-dark);
     background-color: var(--clr-bright);
     border: solid 1px var(--clr-bright);
     border-radius: 10px;
@@ -50,6 +50,24 @@
 }
 
 .all-projects-btn:hover {
+    color: var(--clr-bright);
+    background-color: var(--clr-bg-dark);
+}
+
+.contact-form-btn {
+    width: 100%;
+    font-size: 22px;
+    line-height: 70px;
+    text-align: center;
+    color: var(--clr-dark);
+    background-color: var(--clr-bright);
+    border: solid 1px var(--clr-bright);
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.contact-form-btn:hover {
     color: var(--clr-bright);
     background-color: var(--clr-bg-dark);
 }
@@ -72,7 +90,12 @@
         line-height: 124px;
         border-radius: 8px;
     }
-    
+
+    .contact-form-btn {
+        font-size: 16px;
+        line-height: 47px;
+        border-radius: 7px;
+    }
 }
 /*** End TABLET Screen ***/
 
@@ -93,6 +116,12 @@
         width: 100%;
         font-size: 18px;
         line-height: 80px;
+    }
+
+    .contact-form-btn {
+        font-size: 15px;
+        line-height: 43px;
+        border-radius: 6px;
     }
 
     
