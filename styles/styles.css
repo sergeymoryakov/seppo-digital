@@ -3,6 +3,7 @@
 @import "./projects.css";
 @import "./experience.css";
 @import "./services.css";
+@import "./contact-us.css";
 
 html {
     scroll-behavior: smooth;
