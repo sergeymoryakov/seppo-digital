@@ -78,6 +78,10 @@
         line-height: 58px;
     } 
 
+    .stack {
+        width: calc(100%/2 - 30px);
+    }
+
     .stack h3 {
         margin-bottom: 13px;
         font-size: 28px;
