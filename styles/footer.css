@@ -119,6 +119,9 @@
         line-height: 18px;
     }
 
+    .ft-item.statement {
+        margin-top: 30px;
+    }
 
     .ft-item.links,
     .ft-item.terms {
