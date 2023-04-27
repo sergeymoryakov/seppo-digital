@@ -1,0 +1,113 @@
+/* Main Page: Hero Section Styles */
+.hero {
+    width: 100%;
+    height: auto;
+    /* background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.9) 100%),
+        url('../resources/hero-background-2.jpg'); */
+    background-image: url('../resources/hero-background-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+}    
+
+.hero-inner {
+    position: relative;
+    padding-top: 30px;
+    height: 765px;
+    /* background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.9) 100%); */
+}
+
+.hero-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    width: 60%;
+    background-image: url(../resources/seppo_standing_med.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid green; */
+}
+
+.hero-inner-blure {
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    width: 100vw;
+    height: 80%;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.9) 100%);
+    /* border: 1px solid red; */
+}
+
+.hero-intro {
+    position: absolute;
+    bottom: 90px;
+    z-index: 100;
+}
+
+.hero-intro p {
+    max-width: 430px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.hero-intro h1 {
+    margin-top: 30px;
+    max-width: 800px;
+    font-size: 80px;
+    line-height: 70px;
+    color: var(--clr-bright);
+}
+
+
+/*** TABLET Screen only ***/
+@media (max-width: 1182px) {
+    .hero-image {
+        width: 75%;
+    }
+   
+    .hero-intro {
+        bottom: 55px;
+    } 
+    
+    .hero-intro h1 {
+        max-width: 555px;
+        font-size: 60px;
+    } 
+}
+/*** End TABLET Screen ***/
+
+
+/*** MOBILE screen only ***/
+@media (max-width: 576px) {
+    .hero-inner {
+        height: 716px;
+    }
+
+    .hero-image {
+        width: 90%;
+    }
+
+    .hero-intro p {
+        max-width: 80%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .hero-intro h1 {
+        margin-top: 10px;
+        max-width: 360px;
+        font-size: 40px;
+        line-height: 47px;
+    } 
+}
+/*** End WIDE Screen ***/

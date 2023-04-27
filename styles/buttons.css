@@ -15,6 +15,10 @@
     background-image: url('../resources/btn-blue-black.png');
 }
 
+.btn-menu-burger {
+    display: none;
+}
+
 .project-link-btn {
     padding: 10px 20px;
     font-size: 20px;
@@ -74,6 +78,16 @@
 
 /*** TABLET Screen only ***/
 @media (max-width: 1182px) {
+
+
+    .btn-menu-burger {
+        display: block;
+        height: 26px;
+        width: 36px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
         
     .project-link-btn {
         padding: 8px 16px;

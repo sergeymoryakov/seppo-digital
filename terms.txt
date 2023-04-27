@@ -1,0 +1,305 @@
+ 
+
+PRIVACY STATEMENT
+
+ 
+
+At MORYAKOV Oy, we are committed to protecting and respecting your privacy.
+
+ 
+
+This statement explains when and why we collect personal information about people, how we use it, the conditions under which we may disclose it to others and how we keep it secure.
+
+ 
+
+We may change this Policy statement time to time so please check this page occasionally to ensure that you’re happy with any changes.
+
+ 
+
+MORYAKOV Oy privacy statement
+
+Status: February 21st, 2021
+
+ 
+
+According to the General Data Protection Regulation, the personal data controller of a register is obligated to inform the register’s data subjects in a clear manner. This statement fulfils this informing obligation.
+
+ 
+
+1. Personal data controller
+
+ 
+
+MORYAKOV Oy
+
+Contact information:
+
+c/o Regus Graniittitalo,
+
+Antinkatu 3 D 7,
+
+Helsinki, 00100 Finland
+
+Phone number +358 40 649 1511
+
+We are not required to have a data protection officer, so any enquiries about our use of your personal data should be sent by e-mail to legal@moryakov.pro or by writing to MORYAKOV Oy, Antinkatu 3 D 7, Helsinki, 00100 Finland.
+
+ 
+
+2. Data subjects
+
+ 
+
+Clients and customers, potential customers, partners and vendors.
+
+ 
+
+3. Personal data recorded in the register
+
+ 
+
+The personal information that we may collect from you includes your first name, last name, job title, company name, e-mail address, postal address, telephone number, country, device-specific information and log information (as described below) and other personal information that you may communicate to us or that is otherwise collected from you as described below (“Personal Data”).
+
+ 
+
+4. Purpose of use of personal data
+
+ 
+
+We collect information from you to:
+
+ 
+
+Provide, operate, optimize and maintain our website, system administration and security;
+
+Handle inquiries and requests and provide you with information and access to our services or resources;
+
+Process the registration form that you submitted via our website;
+
+Schedule a meeting;
+
+Negotiate and execute contractual documents;
+
+Carry out our obligations arising from contracts entered into between us and our clients;
+
+Perform our role as Data Protection Representative pursuant to Article 27 of the General Data Protection Regulation;
+
+Perform administrative duties;
+
+Seek your views or comments on the services we provide;
+
+Notify you of changes to our services;
+
+Provide you with our e-newsletter;
+
+Send information for marketing purposes; and
+
+Carry out other legitimate business purposes, as well as other lawful purposes about which we will notify contacts, visitors and clients.
+
+ 
+
+Legal basis for processing
+
+ 
+
+Our legal basis for processing the Personal Data described above will depend on the Personal Data concerned and on the specific context in which we process it. We primarily rely on four legal bases to process your Personal Data:
+
+ 
+
+1. Where you have given us valid consent to use your Personal Data in certain ways, we will rely on your consent. This includes situations where we will obtain your consent prior to sending your information to our clients for the purposes of handling your requests regarding the use of your Personal Data by our clients.
+
+2. We process Personal Data when it is necessary for us to do so in order to provide our services to our clients, pursuant to their instructions and in accordance with a Mandate Agreement that we have entered into with them.
+
+3. In certain cases, we may process your Personal Data where it is necessary in our legitimate interests, where those legitimate interests are not overridden by your rights and freedoms. This includes direct marketing, usage statistics and analytics to better understand how to use our website so that we can improve our services.
+
+4. In some cases, we may also have a legal obligation to process your Personal Data. If we ask you to provide Personal Data to comply with a legal requirement, we will make this clear at the relevant time and inform you on whether the provision of your Personal Data is mandatory or not (as well as of the possible consequences if you do not provide your Personal Data).
+
+ 
+
+5. The data subject’s rights
+
+ 
+
+You have the following rights, and requests for their use should be sent to legal@moryakov.pro.
+
+ 
+
+Right to access data
+
+ 
+
+The data subject may check the data we have recorded.
+
+ 
+
+Right to rectification
+
+ 
+
+The data subject may request the rectification of inaccurate or incomplete personal data.
+
+ 
+
+Right to object
+
+ 
+
+The data subject may object to the processing of personal data if the data subject feels that personal data has been processed unlawfully.
+
+ 
+
+Right to forbid direct marketing
+
+ 
+
+The data subject has the right to forbid the use of personal data for direct marketing.
+
+ 
+
+Right to deletion
+
+ 
+
+The data subject has the right to request the deletion of data if personal data processing is not necessary. We will handle the request for deletion and proceed to either delete the data or state a justified reason for not being able to delete the data.
+
+It should be noted that the controller may have legal or other rights to not delete the requested data. The controller is obligated to preserve accounting materials for the duration (10 years) set out in the Accounting Act (Chapter 2, Section 10). For this reason, materials related to accounting cannot be deleted before that term has expired.
+
+ 
+
+Withdrawing consent
+
+ 
+
+If the processing of personal data is only based on the data subject’s consent and not for instance on a customer relationship or membership, the data subject may withdraw consent.
+
+ 
+
+The data subject may complain of the decision to the Data Protection Supervisor
+
+ 
+
+The data subject has the right to demand us to restrict the processing of controversial data until the matter is solved.
+
+ 
+
+Right to complain
+
+ 
+
+The data subject has the right to complain to the Data Protection Supervisor if the data subject feels that we are violating the effective data protection regulation when processing personal data.
+
+ 
+
+Contact information of the data protection supervisor: www.tietosuoja.fi/en/index/yhteystiedot.html.
+
+ 
+
+6. Regular information sources
+
+ 
+
+6.1. Information that you provide to us
+
+ 
+
+We collect Personal Data that you provide directly to us. For example, we collect information when you send us a request or an inquiry, register as a client, apply for a job, subscribe to our e-newsletter, fill out a form or survey or submit an on-line meeting request, download information or documents that we publish, interact with our live chat, request customer support, use our services or otherwise interact or communicate with us in any other way.
+
+ 
+
+6.2 Information that we process on behalf of our clients
+
+ 
+
+Our clients may also provide us with certain Personal Data. We will in such case act as a data processor or sub-processor and only process such Personal Data on our clients’ behalf and in accordance with their instructions (as defined in the mandate agreement that we entered into with our clients). We will use such Personal Data to handle data subject requests or for any other purpose provided for in the mandate agreement or in accordance with or as may be required by law.
+
+ 
+
+In such cases, it is the client (or, as the case may be, other third parties) who remain responsible for the handling of the Personal Data and with compliance with any applicable data privacy laws.
+
+ 
+
+6.3. Information that we collect from other sources
+
+ 
+
+We may also obtain information from other sources and combine that with the information that we collect as described above. For example, we may collect information about you from third parties, including but not limited to social media platforms, data enrichment providers, lead generation service providers and publicly available sources, but only where we have checked that these third parties either have your consent or are otherwise legally permitted or required to disclose your Personal Data to us.
+
+ 
+
+6.4. Information that we automatically collect
+
+6
+
+We do not automatically collect information about you.
+
+ 
+
+7. Regular disclosure of data
+
+ 
+
+We will not share your Personal Data with any third parties for the purposes of direct marketing or otherwise sell or rent your Personal Data to third parties.
+
+ 
+
+We may share your Personal Data to third parties in the following circumstances or as otherwise described in this Privacy Policy:
+
+ 
+
+With your consent or pursuant to your instructions;
+
+To consultants, subcontractors and other service providers who need access to such information to carry out work on our behalf or to assist us in the provision of our website and other business-related functions such as website analytics; and
+
+As part of a duty to disclose or share your Personal Data in order to comply with a legal obligation, for example, by a court order, or for the purposes of prevention of fraud or other crime, or to enforce or apply our Terms and Conditions or to protect the rights, property or safety of our clients.
+
+ 
+
+When we use third party service providers, we only disclose the Personal Data that is necessary to deliver the service and we have a contract in place that requires them to keep your information secure and to keep it for no longer than necessary for the purposes of completing the tasks and providing the services to you on our behalf.
+
+ 
+
+8. Duration of processing
+
+ 
+
+We review our retention periods for Personal Data on a regular basis. We will hold your Personal Data in our systems only for as long as is necessary for the relevant activity, or as long as is set out in any relevant contract, after which time it will be destroyed, unless we are legally required to hold some types of information to fulfil our statutory obligations.
+
+ 
+
+9. Personal data processors
+
+ 
+
+The controller and its employees process Personal Data.
+
+ 
+
+We may also partially outsource the processing of personal data to a third party, in which case we guarantee through contractual arrangements that personal data will be processed in accordance with applicable data protection legislation and otherwise appropriately.
+
+ 
+
+We regularly use the following service providers:
+
+E-Accounting: Visma Solutions Oy, the Privacy Statement link: https://www.visma.fi/yksityisyydensuoja/etusivu/.
+
+Email and Web Hosting: Namecheap, Inc., the Privacy Policy link: https://www.namecheap.com/legal/general/privacy-policy/.  
+
+ 
+
+10. Transferring data outside the EU
+
+ 
+
+Data is regularly transferred outside the EU or the EEA. When data is transferred outside the EU and the EEA, we will safeguard the sufficient level of Personal Data protection by e.g. agreeing on matters related to the confidentiality and processing of personal data in compliance with legislation.
+
+ 
+
+11. Automatic decision-making and profiling
+
+ 
+
+We are not using the data for automatic decision-making or profiling.
+
+ 
+
+ 

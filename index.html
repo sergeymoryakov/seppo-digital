@@ -38,6 +38,10 @@
                             </li>
                         </ul>
                     </nav>
+                    <!-- button for drop-down (burger) menu - Tablet and Mobile Only! -->
+                    <button class="js-btn-menu-burger btn-menu-burger">
+                        <img src="/resources/vector-menu-white.svg" alt="Drop-down menu">
+                    </button> 
                 </div>
                 <div class="hero-image"></div>
                 <div class="hero-inner-blure"></div>
@@ -50,6 +54,52 @@
                     </h1>
                 </div>
             </div>
+
+            <!-- NEW MENU BURGER MODULE -->
+            <div class="js-menu-burger menu-burger">
+                <div class="menu-burger-content">
+                    <!-- <button class="js-btn-burger-close btn-burger-close">
+                        <img src="resources/Vector-x.png" alt="Close">
+                    </button> -->
+                    <div class="menu-burger-logo">
+                        <img src="/resources/btn-blue-tnsp.svg" alt="SEPPO-LOGO">
+                    </div>
+                    <nav>
+                        <ul class="menu-burger-nav">
+                            <li>
+                                <a href="#projects">PROJECTS</a>
+                            </li>
+                            <li>
+                                <a href="#experience">EXPERINCE</a>
+                            </li>
+                            <li>
+                                <a href="#services">SERVICES</a>
+                            </li>
+                            <li>
+                                <a href="#contacts">CONTACTS</a>
+                            </li>
+<!-- 
+                            <li>
+                                <a href="index-ru.html">РУССКИЙ</a>
+                            </li> 
+-->
+                        </ul>
+                    </nav>
+                    <p class="burger-contacts">Contact us</p>
+                    <ul class="js-menu-burger-content">
+                        <li class="burger-contact">
+                            <a href="mailto:seppo.digital@gmail.com">mail</a>
+                        </li>
+                        <li class="burger-contact">
+                            <a target="_blank" href="https://t.me/smoryakov">telegram</a>
+                        </li>
+                        <li class="burger-contact">
+                            <a target="_blank" href="https://www.linkedin.com/in/sergey-moryakov/">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div> 
     </section>
     <section id="projects" class="projects">
@@ -96,7 +146,7 @@
             </a>
         </div>
     </section>
-    <section id="competences" class="experience">
+    <section id="experience" class="experience">
         <div class="container">
             <h2>Our experience</h2>
             <div class="experience-inner">
@@ -193,7 +243,7 @@
         </div>
     </section>
 
-    <section class="contact-us">
+    <section id="contacts" class="contact-us">
         <div class="container">
             <div class="contact-us-inner">
                 <div class="contact-form">
@@ -202,7 +252,7 @@
                         <input class="input" type="text" name="name" placeholder="Full Name">
                         <input class="input" type="email" name="email" placeholder="Email">
                         <input class="checkbox" type="checkbox" name="t-n-c">
-                        <label class="checkbox-label" for="checkbox">I accept the <a href="">Data processing policy</a></label><br>
+                        <label class="checkbox-label" for="checkbox">I accept the <a href="">Privacy statement</a></label><br>
                         <button class="contact-form-btn">Submit</button>
                     </form>
                 </div>
@@ -226,11 +276,14 @@
                 <p>All rights reserved, 2023</p>
             </div>
             <div class="ft-item terms">
-                <a href="">Data processing policy</a>
+                <a href="">Privacy statement</a>
             </div>
         </div>
     </div>
 </section>
-
+<!-- 
+<script src="terms-popup.js"></script>
+<script src="menu-burger.js"></script>
+ -->
 </body>
 </html>

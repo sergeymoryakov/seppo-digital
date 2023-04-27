@@ -1,0 +1,44 @@
+/* Main Page: Menu Section Styles */
+.body-fixed {
+    overflow: hidden;
+}
+
+.header {
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.menu a {
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: var(--clr-light);
+    z-index: 100;
+}
+
+.menu a:hover {
+    color: var(--clr-bright);
+}
+
+/*** TABLET Screen only ***/
+@media (max-width: 1182px) {
+    .menu {
+        display: none;
+    }
+}
+/*** End TABLET Screen ***/
+
+
+/*** MOBILE screen only ***/
+@media (max-width: 576px) {
+
+}
+/*** End WIDE Screen ***/
