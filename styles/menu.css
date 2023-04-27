@@ -82,8 +82,8 @@
     
     .btn-menu-burger-open {
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 12px;
+        right: 12px;
         width: 34px;
         height: 34px;
         background-image: url('../resources/vector-close-blue.svg');
@@ -120,8 +120,8 @@
     
     .menu-burger-content {
         /* position: relative; */
-        padding: 80px 30px;
-        width: 274px;
+        padding: 58px 35px;
+        width: 362px;
         height: 100%;
         overflow-y: auto;
         color: var(--clr-light);
@@ -165,7 +165,7 @@
     }
     
     .burger-contacts {
-        margin-top: 40px;
+        margin-top: 90px;
         font-size: 16px;
         opacity: 0.5;
     }
