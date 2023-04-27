@@ -1,6 +1,6 @@
 /* Main Page: Footer Section Styles */
 .footer {
-    padding: 75px 0px;
+    padding: 80px 0px;
     width: 100%;
     background-color: var(--clr-bg-light);
     color: var(--clr-dark);
@@ -39,10 +39,18 @@
     gap: 24px;
 }
 
-.ft-item a {
+.ft-item a, 
+.ft-item button {
     color: var(--clr-dark);
     text-decoration: none;
+    background: transparent;
+    border: none;
     cursor: pointer;
+}
+
+.ft-item a:hover, 
+.ft-item button:hover {
+    color: var(--clr-bright);
 }
 
 
