@@ -6,6 +6,7 @@
 @import "./services.css";
 @import "./contact-us.css";
 @import "./footer.css";
+@import "./terms-popup.css";
 
 html {
     scroll-behavior: smooth;
