@@ -11,14 +11,15 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
     /* DO WE REALLY NEED VISIBILITY HERE? */
+    /* opacity: 0; */
     visibility: hidden;
     transition: all 1.0s ease;
 }
 
 .popup-order-open {
-    opacity: 1;
+    /* DO WE REALLY NEED VISIBILITY HERE? */
+    /* opacity: 1; */
     visibility: visible;
 }
 
@@ -31,9 +32,16 @@
     overflow-y: auto;
 
     padding: 50px 50px;
-    background-color: #ffffff;
+    background-color: var(--clr-bg-light);
     /* border-radius: 10px; */
+    transition: transform 0.5s linear;
+    transform: translateY(100%);
 }
+
+.popup-order-open .popup-order-content {
+    transform: translateY(0);
+}
+
 
 .btn-order-close {
     position: absolute;

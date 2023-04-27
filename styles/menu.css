@@ -28,6 +28,14 @@
     color: var(--clr-bright);
 }
 
+.btn-menu-burger {
+    display: none;
+}
+
+.menu-burger {
+    display: none;
+}
+
 /*** TABLET Screen only ***/
 @media (max-width: 1182px) {
     .menu {
@@ -95,7 +103,7 @@
         display: flex;
         justify-content: end;
         align-items: start;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.5);
         /* Check if opacity is needed */
         /* opacity: 0; */
         visibility: hidden;
