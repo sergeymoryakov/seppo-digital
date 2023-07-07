@@ -1,2 +1,2 @@
 # seppo-digital
-SEPPO.digital studio's landing page
+SEPPO.digital Studio's landing page is a training project to practice HTML, CSS and JavaScript usage. 
