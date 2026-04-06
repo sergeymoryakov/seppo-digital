@@ -1,0 +1,103 @@
+:root {
+    --aviation-blue: #0b1a2d; /* Deep sky blue */
+    --cockpit-green: #00ff41; /* CRT Monitor Green */
+    --warning-orange: #ff9f1c; /* Warning Light Orange */
+    --cloud-white: #f8f9fa;
+    --steel-gray: #4a5568;
+}
+
+body {
+    margin: 0;
+    font-family:
+        "Inter",
+        -apple-system,
+        sans-serif;
+    background-color: var(--aviation-blue);
+    color: var(--cloud-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 3rem;
+}
+
+.logo span {
+    color: var(--warning-orange);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #cbd5e0;
+    margin-bottom: 2.5rem;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--cockpit-green);
+    color: var(--cockpit-green);
+    font-family: monospace;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+}
+
+.cta-box {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.email-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+input[type="email"] {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 6px;
+    border: none;
+    background: var(--cloud-white);
+}
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    border: none;
+    background: var(--warning-orange);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+footer {
+    margin-top: 4rem;
+    font-size: 0.8rem;
+    color: var(--steel-gray);
+}
